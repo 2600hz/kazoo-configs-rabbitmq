@@ -3,7 +3,7 @@ Description=RabbitMQ Broker Configured for Kazoo
 After=syslog.target network-online.target
 
 [Service]
-Type=notify
+Type=simple
 User=rabbitmq
 Group=daemon
 PermissionsStartOnly=true
