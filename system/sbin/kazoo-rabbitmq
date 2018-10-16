@@ -71,6 +71,15 @@ case "$1" in
 		shift
 		start "$@"
 		;;
+        rabbitmqctl)
+                exec $@
+                RETVAL=$?
+                ;;
+
+        rabbitmq-plugins)
+                exec $@
+                RETVAL=$?
+                ;;
 	*)
 		exec /usr/lib/rabbitmq/bin/rabbitmqctl $@
 		RETVAL=$?
