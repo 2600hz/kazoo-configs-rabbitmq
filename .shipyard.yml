@@ -1,5 +1,5 @@
 name: kazoo-configs-rabbitmq
-base_branch: origin/master
+base_branch: origin/4.3
 base_core: null
 template: spec.tmpl
 package:
@@ -61,4 +61,4 @@ metapackage:
     name: meta-kazoo-rabbitmq
     package: kazoo-configs-rabbitmq
     type: required
-    branch: 'master'
+    branch: '4.3'
