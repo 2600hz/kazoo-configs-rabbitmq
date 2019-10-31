@@ -19,8 +19,7 @@ package:
       list or on IRC at #2600hz on FreeNode.
     dist: .el7.centos
     requires:
-      centos7:
-         sudo: {}
+      sudo: {}
     source: '%{_build_tar}'
     prep: '%setup -q'
     install: |
