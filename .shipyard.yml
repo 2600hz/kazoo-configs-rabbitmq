@@ -1,5 +1,6 @@
 name: kazoo-configs-rabbitmq
 base_branch: origin/5.1
+exposure: private
 base_core: null
 template: spec.tmpl
 package:
