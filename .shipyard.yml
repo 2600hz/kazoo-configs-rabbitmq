@@ -1,7 +1,7 @@
 name: kazoo-configs-rabbitmq
 custom_files: null
 exposure: private
-base_branch: origin/master
+base_branch: origin/5.5
 base_core: null
 template: spec.tmpl
 package:
@@ -175,5 +175,5 @@ metapackage:
     name: meta-kazoo-rabbitmq
     package: kazoo-configs-rabbitmq
     type: required
-    branch: master
+    branch: '5.5'
 dependencies: null
